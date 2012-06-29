@@ -1,4 +1,6 @@
 TestApp::Application.routes.draw do
+  resources :tinyposts
+
   resources :users
 
   # The priority is based upon order of creation:
